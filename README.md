@@ -73,25 +73,3 @@ def test_buy_request():
 
 # Run the function
 test_buy_request()
-
-Example Successful Response
-
-{
-  "status": "success",
-  "txid": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
-}
-
-Example Failed Response
-
-{
-  "status": "failed",
-  "message": "Transaction failed due to insufficient gas.",
-  "error": "Insufficient funds in wallet for gas fees."
-}
-
-Contact Information
-
-These APIs are in the testing phase, and your feedback is valuable. Please feel free to report any issues or suggest improvements.
-
-    Support: support@arbitrum-api.co
-    Bug Reports: bugs@arbitrum-api.co
